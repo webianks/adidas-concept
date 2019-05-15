@@ -1,6 +1,5 @@
 import 'package:adidas_concept/circular_background_painter.dart';
 import 'package:adidas_concept/constant.dart';
-import 'package:adidas_concept/dots_indicator.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:material_design_icons_flutter/material_design_icons_flutter.dart';
@@ -30,7 +29,7 @@ class _DetailsScreenState extends State<DetailsScreen> {
         _circularBackground(),
         _logoAndProductName(),
         _productImageBig(),
-        _pageDotIndicator(),
+        //_pageDotIndicator(),
         _priceAndSize(),
         _addToCartAndBookMark(),
       ]),
@@ -295,7 +294,7 @@ class _DetailsScreenState extends State<DetailsScreen> {
     );
   }
 
-  Widget _pageDotIndicator() {
+ /*  Widget _pageDotIndicator() {
     return Positioned(
         left: 150.0,
         right: 0.0,
@@ -310,5 +309,5 @@ class _DetailsScreenState extends State<DetailsScreen> {
           dotActiveSize: Size(25, 25),
           dotActiveColor: Color(Const.colorAdidasLogo),
         ));
-  }
+  } */
 }

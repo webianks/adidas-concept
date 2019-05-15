@@ -1,4 +1,4 @@
-import 'package:flutter/material.dart';
+/* import 'package:flutter/material.dart';
 
 class DotsIndicator extends StatefulWidget {
   static const Size kDefaultSize = const Size.square(9.0);
@@ -131,3 +131,4 @@ class _DotsIndicatorState extends State<DotsIndicator> {
     return dots;
   }
 }
+ */
